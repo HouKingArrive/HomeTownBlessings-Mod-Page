@@ -1,0 +1,15 @@
+{
+  "pageTitle":"Feature List", 
+  "searchPlaceholder": "Search features...",
+  "descriptionTitle": "Feature Description",
+  "categoryTitle": "Category",
+  "imagePlaceholder": "Please select an item from the left to view images.",
+  "itemDescriptionPlaceholder": "Please select an item from the left to view its details.",
+  "categoryPlaceholder": "This item has no category.",
+  "noItemsFound": "No matching items found.",
+  "noImages": "This item has no images.",
+  "dataLoadError": "Failed to load feature data. Please check the file path or server status.",
+  "navTitle":  "Mount & Blade II: Bannerlord Mod - HometownBlessings",
+  "languageLabel": "Language:",
+    "authorName": "HouKing"
+}

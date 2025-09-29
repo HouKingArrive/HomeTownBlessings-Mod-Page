@@ -1,0 +1,398 @@
+{
+    "item1757582059509": {
+        "name": "Tournament",
+        "categories": [
+            "Companion",
+            "Development",
+            "Combat",
+            "Ranking"
+        ],
+        "images": [],
+        "description": "Whenever a player's town hosts an arena tournament, it will be marked. Marked towns will continuously host new tournaments on a daily basis. Additionally, with the help of a mysterious character, you can help your companions win the arena rankings."
+    },
+    "item1757581634141": {
+        "name": "Fighter Ranking & Impact Realm",
+        "categories": [
+            "Companion",
+            "Difficulty Reduction",
+            "Skills",
+            "Development",
+            "Ranking"
+        ],
+        "images": [],
+        "description": "To prevent you from encountering super-saiyan-like demigods in other mods, I have created a promotion mechanism that allows you and your companions to become the strongest of the strong."
+    },
+    "item1757581409988": {
+        "name": "Missing Persons",
+        "categories": [
+            "Spouse",
+            "Companion"
+        ],
+        "images": [],
+        "description": "I've created a simple system for finding people. You can use filters to find the person you want to meet. You can view their profile, appear next to them, or even arrange a marriage."
+    },
+    "item1757581273480": {
+        "name": "Resource Management",
+        "categories": [
+            "Trade",
+            "Food",
+            "Difficulty Reduction"
+        ],
+        "images": [],
+        "description": "You can now more conveniently store food and sell low-priced equipment."
+    },
+    "item1757581225403": {
+        "name": "Teleport to Settlement",
+        "categories": [
+            "Settlement",
+            "Difficulty Reduction"
+        ],
+        "images": [],
+        "description": "You can now access different settlement teleportation functions based on your status."
+    },
+    "item1757579578763": {
+        "name": "Purchase Settlement",
+        "categories": [
+            "Settlement",
+            "Trade"
+        ],
+        "images": [],
+        "description": "When a kingdom's town loyalty drops below 25, you can acquire it through the black market."
+    },
+    "item1757579512603": {
+        "name": "Quick Sell Low-Priced Equipment",
+        "categories": [
+            "Trade",
+            "Equipment",
+            "Difficulty Reduction"
+        ],
+        "images": [],
+        "description": "You can quickly sell equipment that is priced below a set value. (Note: Some equipment cannot be sold.)"
+    },
+    "item1757579415733": {
+        "name": "Trade Captives",
+        "categories": [
+            "Captives",
+            "Black Market",
+            "Settlement"
+        ],
+        "images": [],
+        "description": "You can buy captive lords of a settlement in the black market."
+    },
+    "item1757579320163": {
+        "name": "Black Market Equipment",
+        "categories": [
+            "Equipment",
+            "Black Market",
+            "Difficulty Reduction",
+            "Trade"
+        ],
+        "images": [],
+        "description": "You can purchase equipment belonging to the troops currently in your party from the black market."
+    },
+    "item1757579012200": {
+        "name": "Purchase Garrison",
+        "categories": [
+            "Settlement",
+            "Troops",
+            "Difficulty Reduction"
+        ],
+        "images": [],
+        "description": "You can purchase elite troops from a settlement's garrison."
+    },
+    "item1757578921722": {
+        "name": "Family Granary",
+        "categories": [
+            "Food",
+            "Storage",
+            "Settlement"
+        ],
+        "images": [],
+        "description": "You can store surplus food in the family granary. When your settlements are low on food, they will automatically draw from the family granary."
+    },
+    "item1757578835088": {
+        "name": "Recruit Troops",
+        "categories": [
+            "Troops",
+            "Party",
+            "Clan"
+        ],
+        "images": [],
+        "description": "You can recruit elite troops from clan parties in the same settlement."
+    },
+    "item1757578761732": {
+        "name": "Introduce New Clans",
+        "categories": [
+            "Clan",
+            "Kingdom",
+            "Difficulty Increase"
+        ],
+        "images": [],
+        "description": "You can introduce five powerful new clans to a specified kingdom to fight and contribute to its cause."
+    },
+    "item1757577475941": {
+        "name": "Feast and Drink",
+        "categories": [
+            "Kingdom",
+            "Policies"
+        ],
+        "images": [],
+        "description": "As long as you are not a mercenary and have become a lord of a certain kingdom, if your influence is greater than the combined influence of all other clans in that kingdom, you can spend all your influence to become king."
+    },
+    "item1": {
+        "name": "New Party Recruits",
+        "categories": [
+            "Companion",
+            "Troops",
+            "Party",
+            "Clan Party",
+            "Difficulty Reduction"
+        ],
+        "images": [],
+        "description": "Whenever a new clan party is formed, the system will automatically allocate 30 Tier 1 troops of the clan's culture to the party, helping it form more quickly."
+    },
+    "item2": {
+        "name": "Remove Companion's Negative Traits",
+        "categories": [
+            "Companion",
+            "Difficulty Reduction",
+            "Development"
+        ],
+        "images": [],
+        "description": "Whenever a companion joins the player's party, if they have negative traits, those traits will be removed and they will be granted a random positive trait."
+    },
+    "item3": {
+        "name": "Rename Companion",
+        "categories": [
+            "Companion",
+            "Development"
+        ],
+        "images": [],
+        "description": "You can now rename your companions."
+    },
+    "item4": {
+        "name": "Command Operations",
+        "categories": [
+            "Command",
+            "Party",
+            "Difficulty Reduction"
+        ],
+        "images": [],
+        "description": "You can now command your clan parties, allied kingdom parties, and armies to attack enemy parties or settlements, or to attract nearby parties to your location for protection."
+    },
+    "item5": {
+        "name": "Find Enemy Armies",
+        "categories": [
+            "Party",
+            "Difficulty Reduction"
+        ],
+        "images": [],
+        "description": "You can now quickly find the location of enemy armies, allowing for more flexible decision-making."
+    },
+    "item6": {
+        "name": "Persuade Captives",
+        "categories": [
+            "Captives",
+            "Difficulty Reduction"
+        ],
+        "images": [],
+        "description": "You can now persuade captives to convert them into troops for your party and even change their culture. You can also invite captive lords to join your clan to fight alongside you. However, persuaded lords cannot be kingdom leaders, and their original clan must be able to maintain a minimum number of members for the persuasion to be successful."
+    },
+    "item7": {
+        "name": "Pregnancy Settings",
+        "categories": [
+            "Pregnancy",
+            "Companion",
+            "Spouse"
+        ],
+        "images": [],
+        "description": "You can use the menu to modify pregnancy settings, including the conditions for allowing pregnancy. The default is to allow pregnancy until you have two children, but you can adjust this limit. You can also enable or disable the setting for always having twins, which is enabled by default."
+    },
+    "item8": {
+        "name": "Unconditional War",
+        "categories": [
+            "Diplomacy",
+            "Difficulty Reduction",
+            "Kingdom"
+        ],
+        "images": [],
+        "description": "Tired of peace? You can decide which kingdom your nation should go to war with, so you'll no longer be idle."
+    },
+    "item9": {
+        "name": "Generate Bandits",
+        "categories": [
+            "Bandit",
+            "Troops",
+            "Difficulty Reduction",
+            "Party"
+        ],
+        "images": [],
+        "description": "Not enough bandits for a quest? You can now generate bandits and customize them freely. You might even create a big problem for yourself or the local area."
+    },
+    "item10": {
+        "name": "Teleport to Nearest Friendly Town",
+        "categories": [
+            "Settlement",
+            "Captives"
+        ],
+        "images": [],
+        "description": "To make it easier to deal with a large number of captives, you can now quickly find a town to sell them."
+    },
+    "item1757501634220": {
+        "name": "Black Market Recruitment",
+        "categories": [
+            "Troops",
+            "Party",
+            "Black Market"
+        ],
+        "images": [],
+        "description": "You can recruit the same types of troops you currently have in your party from the black market, quickly boosting your party's combat power."
+    },
+    "item1757568294831": {
+        "name": "Hideout Bandit Recruitment",
+        "categories": [
+            "Bandit",
+            "Settlement",
+            "Hideout",
+            "Difficulty Reduction"
+        ],
+        "images": [],
+        "description": "You can now recruit bandits corresponding to the culture of a hideout."
+    },
+    "item1757571133798": {
+        "name": "Player Stash",
+        "categories": [
+            "Stash",
+            "Black Market",
+            "Difficulty Reduction"
+        ],
+        "images": [],
+        "description": "You now have a private stash that can be accessed in the black market."
+    },
+    "item1757577756727": {
+        "name": "Intrigue and Spies",
+        "categories": [
+            "Spy",
+            "Kingdom",
+            "Policies"
+        ],
+        "images": [],
+        "description": "You can spend influence to have spies instigate wars between kingdoms."
+    },
+    "item1757577832439": {
+        "name": "Interfere in State Affairs",
+        "categories": [
+            "Kingdom",
+            "Policies"
+        ],
+        "images": [],
+        "description": "You can now spend Denars to forcibly push for policies in various kingdoms."
+    },
+    "item1757578379965": {
+        "name": "Peace and War",
+        "categories": [
+            "Kingdom",
+            "Policies"
+        ],
+        "images": [],
+        "description": "You can spend influence to decide the fate of a kingdom's war. It is entirely up to you whether they should cease all hostilities or go to war again."
+    },
+    "item1757578460210": {
+        "name": "Merge Kingdoms",
+        "categories": [
+            "Kingdom",
+            "Policies"
+        ],
+        "images": [],
+        "description": "You can merge any kingdoms to create your own era of warring states."
+    },
+    "item1757578545710": {
+        "name": "Territory Redistribution",
+        "categories": [
+            "Policies",
+            "Settlement",
+            "Kingdom"
+        ],
+        "images": [],
+        "description": "You can demand a specified kingdom to redistribute its territories, making their distribution fairer."
+    },
+    "item1757579926746": {
+        "name": "Instant Siege",
+        "categories": [
+            "Settlement",
+            "Difficulty Reduction"
+        ],
+        "images": [],
+        "description": "After enabling this setting, when you are besieging a settlement, you can immediately begin the assault after destroying the two side walls."
+    },
+    "item1757580080934": {
+        "name": "Shields and Blocking",
+        "categories": [
+            "Combat",
+            "Difficulty Reduction"
+        ],
+        "images": [],
+        "description": "When this setting is enabled, if two people attack each other, the one with the higher running skill can cause a partial attack penetration. When the running skill difference between the two is greater than 120, the penetration damage will increase. Additionally, every attack has a 10% chance to be a critical hit."
+    },
+    "item1757580557693": {
+        "name": "Royal Prerogative",
+        "categories": [
+            "Policies",
+            "Kingdom",
+            "Leader"
+        ],
+        "images": [],
+        "description": "As king, you have many privileges. You can now more proactively invite other clans to join your kingdom, reclaim territories, increase the tier of clans within the kingdom, distribute Denars or influence to other clans, or even try to split your own kingdom."
+    },
+    "item1757581004943": {
+        "name": "Fine-Tuning",
+        "categories": [
+            "Companion",
+            "Clan",
+            "Party",
+            "Marriage",
+            "Spouse",
+            "Workshop"
+        ],
+        "images": [],
+        "description": "Here are some fine-tuned adjustments to the game:\nMarriage will now always make the spouse join the player's clan.\nThere is no limit to the number of companions you can have.\nIncreased the speed of converting captives into regular troops.\nPlayer clan party size will now increase with the number of clan members.\nThe number of player workshops will now increase with the number of towns owned.\nCompanions will now be more useful in parties. The total party size, movement speed, and healing speed will vary based on the companions in the party."
+    },
+    "item1757581138553": {
+        "name": "Debugging Features",
+        "categories": [
+            "Debugging"
+        ],
+        "images": [],
+        "description": "I encountered some bugs while playing other mods, and I have left some of the bug-fixing methods in this mod. You might have a chance to use them, but I hope you never have to."
+    },
+    "item1757581759193": {
+        "name": "Fight as Companion",
+        "categories": [
+            "Companion",
+            "Combat",
+            "Skills",
+            "Development"
+        ],
+        "images": [],
+        "description": "You can now switch your identity during combat and fight as a companion to gain experience and skills for them. The shortcut is Left Ctrl + U."
+    },
+    "item1759170760526": {
+        "name": "Labor Market",
+        "categories": [
+            "Prisoners",
+            "Soldiers",
+            "Settlements Reduce Game Difficulty"
+        ],
+        "images": [],
+        "description": "You can assign prisoners or soldiers to the Labor Market to increase your village's prosperity. The shortcut to open the menu is Left Ctrl + O."
+    },
+    "item1759171231862": {
+        "name": "Hotkey and menu",
+        "categories": [
+            "Menu",
+            "Function"
+        ],
+        "images": [],
+        "description": "Quick Command:\nAfter capturing and locking onto a target, press F4.\n\nFunction Menu:\nThe shortcut to open the menu is Left Ctrl + O.\n\nCombat Menu:\nUsed during combat.\nShortcuts are Left Ctrl + U, Left Ctrl + Shift + U."
+    }
+}

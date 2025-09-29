@@ -1,0 +1,16 @@
+{
+  "pageTitle": "功能列表",
+  "searchPlaceholder": "搜尋功能...",
+  "descriptionTitle": "功能敘述",
+  "categoryTitle": "類別",
+  "imagePlaceholder": "請從左側選擇一個裝備以查看圖片。",
+  "itemDescriptionPlaceholder": "請從左側選擇一個裝備以查看其詳細資訊。",
+  "categoryPlaceholder": "此項目沒有類別。",
+  "noItemsFound": "找不到符合的項目。",
+  "noImages": "此項目沒有圖片。",
+  "dataLoadError": "無法載入功能資料，請檢查檔案路徑或伺服器狀態。",
+  "navTitle": "騎馬與砍殺2模組-家鄉的祝福",
+  "languageLabel": "語言:",
+    "authorName": "侯爺來了"
+
+}

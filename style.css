@@ -1,0 +1,471 @@
+/* style.css */
+
+/* --- 基本佈局與樣式 --- */
+html, body {
+    /* height: 100%; */
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+/* 新增一個類別來暫時禁用滾動 */
+.no-scroll {
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: calc(100vh - 70px);
+    padding: 15px;
+    box-sizing: border-box;
+    gap: 15px;
+    margin-top: 70px; /* 為導覽列留出空間 */
+}
+
+.sidebar, .content {
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.left-menu {
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.right-info {
+    width: 300px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+/* 新增類別標題樣式 */
+.category-title {
+    margin-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #555;
+}
+
+/* 類別容器樣式 */
+.category-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+/* 每個類別標籤的樣式 */
+.category-tag {
+    background-color: #2e3440;
+    color: #eceff4;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.category-tag:hover {
+    background-color: #4c566a;
+    transform: translateY(-2px);
+}
+
+.sidebar h2 {
+    color: #f0f0f0;
+    font-size: 1.2em;
+    margin: 5px 0 10px;
+    padding-left: 5px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 5px;
+}
+
+.content {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    overflow-y: auto;
+}
+
+/* --- 左側列表樣式 --- */
+#itemList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+#itemList li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    font-size: 0.95em;
+    color: #c0c0c0;
+}
+#itemList li.selected {
+    background-color: #5a5a5a;
+    border-color: #88c0d0;
+    box-shadow: 0 0 10px rgba(136, 192, 208, 0.5);
+    color: #ffffff;
+}
+.item-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.item-info img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    background-color: #4a4a4a;
+    border: 1px solid #666;
+    border-radius: 4px;
+    padding: 2px;
+}
+.item-name {
+    font-weight: bold;
+    font-size: 1em;
+}
+.item-price {
+    color: #f0c05a;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+/* --- 滾動條樣式 --- */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888;
+}
+
+/* --- 漸變遮罩 --- */
+.left-menu::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background: linear-gradient(to top, rgba(42, 42, 42, 1), rgba(42, 42, 42, 0));
+    pointer-events: none;
+}
+
+/* --- 中間圖片藝廊樣式 --- */
+.image-gallery-container {
+    width: 100%;
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+.image-gallery-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+.placeholder-text {
+    text-align: center;
+    color: #888;
+    font-size: 1.1em;
+    margin: auto;
+}
+
+/* --- 搜尋框樣式 --- */
+.header-and-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 0 5px;
+    border-bottom: 1px solid #555;
+}
+
+.header-and-search h2 {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.search-container {
+    padding: 0;
+    width: 200px;
+}
+
+#searchInput {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    background-color: #333;
+    color: #f0f0f0;
+    font-size: 1em;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#searchInput::placeholder {
+    color: #999;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: #88c0d0;
+    box-shadow: 0 0 5px rgba(136, 192, 208, 0.5);
+}
+
+/* --- 新增：導覽列樣式 --- */
+.navbar {
+    width: 100%;
+    background-color: #2a2a2a;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+}
+
+.nav-title {
+    margin: 0;
+    font-size: 1.5em;
+    color: #eceff4;
+}
+
+/* 右側控制容器：使用 Flexbox 讓內部元素水平排列 */
+.right-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* 增加作者名稱和語言切換之間的間距 */
+}
+
+
+/* --- 作者資訊和下拉選單樣式 --- */
+.author-info {
+    position: relative; /* 為了讓下拉選單定位在其下方 */
+    display: flex;
+    align-items: center;
+}
+
+.clickable-name {
+    color: #88c0d0; /* 使用強調色 */
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.clickable-name:hover {
+    background-color: #3b4252;
+}
+
+/* 下拉選單樣式 */
+.social-dropdown {
+    position: absolute;
+    top: 100%; /* 位於作者名稱下方 */
+    right: 0;
+    margin-top: 5px;
+    background-color: #2e3440;
+    border: 1px solid #4c566a;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    min-width: 150px;
+    z-index: 2010; /* 確保在最上層 */
+    padding: 5px 0;
+    display: none; /* 預設隱藏 */
+    flex-direction: column;
+}
+
+.social-dropdown.visible {
+    display: flex; /* 點擊後顯示 */
+}
+
+.social-dropdown a {
+    color: #eceff4;
+    padding: 8px 15px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.social-dropdown a:hover {
+    background-color: #4c566a;
+}
+
+.language-switcher {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 35px;
+}
+
+#languageSelect {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #3b4252;
+    color: #eceff4;
+    border: 1px solid #4c566a;
+}
+
+#itemNameDisplay {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #eceff4;
+    margin: 5px 0 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #4c566a;
+}
+
+#itemDescription {
+   
+    white-space: pre-wrap; 
+}
+
+/* --- 圖片與敘述的動畫效果 --- */
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}
+
+/* --- 載入動畫效果 --- */
+.fixed-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    box-sizing: border-box;
+    gap: 15px;
+    z-index: 1000;
+}
+
+.slide-in-hidden {
+    opacity: 0;
+    transform: translateY(300px);
+}
+
+.slide-in-animation {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 1s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* --- 響應式設計加強 --- */
+@media (max-width: 768px) {
+    .header-and-search {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+ /* 在小螢幕上，將導覽列切換為垂直堆疊 */
+    .navbar {
+        flex-direction: column; 
+        align-items: flex-start;
+        padding: 10px 15px;
+    }
+
+    .right-controls {
+        width: 100%;
+        margin-top: 10px;
+        justify-content: space-between; /* 讓作者名稱和語言切換在底部撐開 */
+    }
+    
+    .author-info {
+        /* 在手機上，讓下拉選單靠左對齊，避免超出螢幕 */
+        flex-grow: 1; 
+    }
+    
+    .social-dropdown {
+        left: 0; /* 確保下拉選單不會超出右側邊界 */
+        right: auto;
+    }
+
+    .search-container {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+    .sidebar, .content {
+        width: auto;
+        margin-bottom: 10px;
+        flex-shrink: 1;
+        max-height: none;
+        overflow-y: visible;
+    }
+
+    .left-menu, .right-info, .content {
+        max-height: none;
+        height: auto;
+        overflow-y: visible;
+    }
+
+    #itemList {
+        max-height: 40vh;
+        overflow-y: auto;
+    }
+
+    .image-gallery-container {
+        max-height: 50vh;
+        overflow-y: auto;
+    }
+
+    .category-container {
+        gap: 6px;
+    }
+    .category-tag {
+        padding: 5px 10px;
+        font-size: 0.85em;
+    }
+}
